@@ -10,6 +10,7 @@
   font-weight: bold;
   box-shadow: 0 0 0 2px #000;
   transition: .3s;
+  cursor: pointer;
 }
 
 .button:hover {

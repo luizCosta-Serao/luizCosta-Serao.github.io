@@ -7,6 +7,10 @@
   font-family: 'Spectral', serif;
 }
 
+body {
+  background: linear-gradient(90deg, #eeee, #ffd);
+}
+
 ul {
   list-style: none;
 }
