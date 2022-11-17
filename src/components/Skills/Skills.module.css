@@ -1,0 +1,68 @@
+.skills {
+  margin-bottom: 2rem;
+}
+
+.skills > h1 {
+  color: #333;
+  text-align: center;
+}
+
+.skills > p {
+  color: #555;
+  text-align: center;
+}
+
+
+.frontEnd {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: .4rem;
+  box-shadow: 0px 0px 8px 1px #333;
+  padding: 1.5rem 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.frontEnd h2 {
+  text-align: center;
+  color: #333;
+}
+
+.skillsList {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.skillsList p {
+  color: #333;
+  font-size: 1.125rem;
+}
+
+.skillsList li p::before {
+  content: "";
+  background: url("../../imgs/Skills/approve.svg");
+  display: inline-block;
+  margin-right: .3rem;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.skillsList span {
+  margin-left: 2rem;
+  position: relative;
+  top: -7px;
+  color: #555;
+}
+
+.skillsList span::after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 1px;
+  margin-top: .5rem;
+  background-color: #fb1;
+}
