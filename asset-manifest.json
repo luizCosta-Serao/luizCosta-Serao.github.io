@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.de699d79.css",
-    "main.js": "/static/js/main.e0ee886d.js",
+    "main.css": "/static/css/main.8fb8f180.css",
+    "main.js": "/static/js/main.047970d4.js",
     "static/media/Message-Sent.svg": "/static/media/Message-Sent.7dc5ce86178c6c52ef5c4a6338759f39.svg",
     "static/media/Notifications.svg": "/static/media/Notifications.1a471cdc3b0a8a41b2a69ce3e3357e4f.svg",
     "static/media/instagram.svg": "/static/media/instagram.2630b1ef180fdbd4163883a1dcb90963.svg",
     "static/media/telegram.svg": "/static/media/telegram.a5ff4fe369d7c28856f670356f5bb403.svg",
     "static/media/github.svg": "/static/media/github.27dc1abc12926f8ed9374bc384839414.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.0fb9430e300c4184a8a5e132a8b50b29.svg",
     "static/media/call.svg": "/static/media/call.afe849692c4c3920416015735c55c54e.svg",
     "index.html": "/index.html",
     "static/media/document.svg": "/static/media/document.98e8861fc03a1f9be2378b7a7360b05c.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.7cbc57ad54c48002525c94693110e96e.svg",
+    "static/media/facebook-messenger.svg": "/static/media/facebook-messenger.7a09e4dbe8aed5ebfcede7b5e3f45ffd.svg",
     "static/media/image.svg": "/static/media/image.0d3bf42ea472ab182c802c3b5bbe7442.svg",
     "static/media/home.svg": "/static/media/home.3c36bd90f280d04cfac965e9995e36b6.svg",
+    "static/media/message.svg": "/static/media/message.3eaca44341b3513bc04a6b4606b01d57.svg",
     "static/media/account.svg": "/static/media/account.6ef3313770afe857a05e106d83bea204.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
-    "main.de699d79.css.map": "/static/css/main.de699d79.css.map",
-    "main.e0ee886d.js.map": "/static/js/main.e0ee886d.js.map"
+    "main.8fb8f180.css.map": "/static/css/main.8fb8f180.css.map",
+    "main.047970d4.js.map": "/static/js/main.047970d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.de699d79.css",
-    "static/js/main.e0ee886d.js"
+    "static/css/main.8fb8f180.css",
+    "static/js/main.047970d4.js"
   ]
 }
