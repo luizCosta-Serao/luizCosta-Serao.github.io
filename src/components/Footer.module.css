@@ -1,0 +1,41 @@
+.bg {
+  margin-top: 5rem;
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer > h1{
+  color: #333;
+  text-align: center;
+}
+
+.footer > p {
+  color: #333;
+}
+
+.links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.links a {
+  color: #333;
+}
+
+.social {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social img{
+  width: 45px;
+  height: 45px;
+}
