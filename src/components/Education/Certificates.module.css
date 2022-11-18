@@ -1,0 +1,72 @@
+.certificate {
+  width: 220px;
+  margin-bottom: 2rem;
+}
+
+.certificate h3 {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.certificate:nth-of-type(even) h3 {
+  margin-right: 30px;
+}
+
+.certificate:nth-of-type(even) {
+  position: relative;
+  left:250px;
+}
+.certificate:nth-of-type(even) h3::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  right: 26px;
+}
+
+.certificate:nth-of-type(odd) h3 {
+  margin-left: 40px;
+}
+
+.certificate:nth-of-type(odd) {
+  text-align: end;
+}
+
+.certificate:nth-of-type(odd) h3::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
+
+.certificate span {
+  color: #555;
+  font-size: 1.125rem;
+}
+
+.certificate:nth-of-type(even) span {
+  margin-left: 20px;
+}
+
+.certificate:nth-of-type(odd) span {
+  margin-right: 20px;
+}
+
+.certificate p {
+  color: #555;
+}
+
+.certificate:nth-of-type(even) p {
+  margin-left: 20px;
+}
+
+.certificate:nth-of-type(odd) p {
+  margin-right: 20px;
+}
