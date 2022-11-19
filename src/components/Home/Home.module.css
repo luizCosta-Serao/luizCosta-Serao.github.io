@@ -1,6 +1,8 @@
 .home {
   padding-top: 2rem;
+  padding-left: 2rem;
   display: flex;
+  gap: 3rem;
   justify-content: space-between;
   align-items: center;
   height: 400px;
@@ -52,9 +54,75 @@
   width: 35px;
   height: 20px;
   vertical-align: middle;
-  padding-left: .5rem;
 }
 
 .contentPhoto img {
   width: 450px;
+}
+
+@media (max-width:1050px) {
+  .home {
+    display: grid;
+    gap: 0rem;
+    justify-content: center;
+    height: auto;
+  }
+
+  .social {
+    position: relative;
+    top: 10px;
+    flex-direction: row;
+  }
+
+  .social img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contentPhoto img {
+    width: 350px;
+  }
+}
+
+@media (max-width:768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .contentText {
+    text-align: center;
+  }
+
+  .social {
+    right: 3rem;
+  }
+
+}
+
+@media (max-width:400px) {
+  .contentText h1 {
+    font-size: 2.5rem
+  }
+
+  .contentText span {
+    font-size: 1.3rem;
+    width: auto;
+  }
+
+  .contentText span::before {
+    display: none;
+  }
+
+  .contentText p {
+    font-size: 1rem;
+    max-width: fit-content;
+  }
+
+  .contentPhoto img {
+    max-width: 100%;
+  }
 }

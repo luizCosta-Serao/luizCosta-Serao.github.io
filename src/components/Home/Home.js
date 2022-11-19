@@ -32,7 +32,7 @@ const Home = () => {
         <div className={styles.contentText}>
           <h1>Luiz Serão</h1>
           <span>Desenvolvedor Front End</span>
-          <p>Sou um Desenvolvedor Front End com muita vontade <br/> de aprender e apaixonado por programação</p>
+          <p>Sou um Desenvolvedor Front End com muita vontade de aprender e apaixonado por programação</p>
           <Button>
             Diga Olá
             <img src={sendMessage} alt="Ícone de mensagem"/>
