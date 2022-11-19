@@ -1,0 +1,15 @@
+.portfolio h1 {
+  color: #333;
+  text-align: center;
+}
+
+.portfolio p {
+  color: #555;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.portfolio img {
+  width: 600px;
+  height: 600px;
+}
