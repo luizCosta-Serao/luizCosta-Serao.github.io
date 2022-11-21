@@ -7,10 +7,26 @@ import image from "../imgs/image.svg"
 import call from "../imgs/call.svg"
 
 const Header = () => {
+  const [menuMobile, setMenuMobile] = React.useState(false)
+  const [active, setActive] = React.useState(false)
+  
+  React.useEffect(() => {
+    window.addEventListener("resize", function() {
+      if(this.window.matchMedia("(max-width:768px)").matches) {
+        setMenuMobile(true)
+      } else {
+        setMenuMobile(false)
+        setActive(false)
+      }
+
+    })
+  },[])
+
   return (
     <header className={`${styles.header} container`}>
       <h1>Luiz <br/> Serão</h1>
-      <nav className={styles.nav}>
+      {menuMobile && <button className={styles.buttonMenu} onClick={() => {setActive(!active)}}></button>}
+      <nav className={`${menuMobile ? styles.navMobile : styles.nav} ${active ? styles.active : styles.inativo}`}>
         <ul>
           <li>
             <img src={home} alt='Home'/>
