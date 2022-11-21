@@ -13,3 +13,10 @@
   width: 600px;
   height: 600px;
 }
+
+@media (max-width:768px) {
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+}
