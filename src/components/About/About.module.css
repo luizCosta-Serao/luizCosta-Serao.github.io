@@ -29,4 +29,29 @@
 
 .content button a {
   color: white;
+} 
+
+@media (max-width:768px) {
+  .about img {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 300px;
+    grid-row: 4 / 5;
+    margin-top: 1.5rem;
+  }
+
+  .content {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+}
+
+@media (max-width:400px) {
+  .about img {
+    width: 100%;
+  }
+
+  .content {
+    width: fit-content;
+  }
 }
