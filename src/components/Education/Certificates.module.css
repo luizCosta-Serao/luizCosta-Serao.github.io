@@ -70,3 +70,50 @@
 .certificate:nth-of-type(odd) p {
   margin-right: 20px;
 }
+
+@media (max-width:600px) {
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .certificate:nth-of-type(even) {
+    position: initial;
+  }
+  
+  .certificate:nth-of-type(odd) {
+    text-align: center;
+    
+  }
+
+  .certificate:nth-of-type(even) {
+    text-align: center;
+  }
+  
+  .certificate:nth-of-type(odd) h3::after {
+    display: none;
+  }
+
+  .certificate:nth-of-type(even) h3::before {
+    display: none;
+  }
+
+  .certificate h3,
+  .certificate p,
+  .certificate span {
+    text-align: center !important;
+    margin-left: initial !important;
+    margin-right: initial !important;
+  }
+
+  .certificate p::after {
+    content: "";
+    display: block;
+    background-color: #fb1;
+    width: 200px;
+    height: 2px;
+    margin: 1rem auto 0 auto;
+  }
+}

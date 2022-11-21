@@ -33,3 +33,21 @@
   top: -440px;
   width: 100%;
 }
+
+@media (max-width:600px) {
+  .education {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;    
+  }  
+
+  .education > p::after {
+    display: none;
+  }
+
+  .education ul {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
