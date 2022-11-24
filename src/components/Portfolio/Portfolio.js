@@ -1,19 +1,18 @@
 import React from 'react'
 import Slide from './Slide'
 import styles from "./Portfolio.module.css"
-import photoTest from "../../imgs/social/github.svg"
+import dogs from "../../imgs/Portfolio/portfolio_dog.png"
+import desafioRouter from "../../imgs/Portfolio/portfolio_products.png"
 
 const Portfolio = () => {
   const slides =  [
     {
-     img:<img src={photoTest} alt="teste"/>,
-     href:"https://www.google.com"
+     img:<img src={dogs} alt="teste"/>,
+     href:"https://luizcosta-serao.github.io/dogs-react/"
     },
     {
-      img:<img src={photoTest} alt="teste"/> 
-    },
-    {
-      img:<img src={photoTest} alt="teste"/> 
+      img:<img src={desafioRouter} alt="teste"/> ,
+      href:"https://luizcosta-serao.github.io/desafio-router-react/"
     }
   ]
 
