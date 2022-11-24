@@ -20,12 +20,12 @@ const Home = () => {
         <Social
           src={linkedin}     
           alt="Linkedin"
-          href={"https://google.com"}
+          href={"https://www.linkedin.com/in/luiz-antonio-205058230/"}
         />
         <Social
           src={instagram}     
           alt="Instagram"
-          href={"https://google.com"}
+          href={"https://www.instagram.com/luiz_antoni.o/"}
         />
       </div>
       <div className={styles.content}>
@@ -44,6 +44,6 @@ const Home = () => {
       </div>
     </section>
   )
-}
+} 
 
 export default Home
