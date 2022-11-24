@@ -33,10 +33,12 @@ const Home = () => {
           <h1>Luiz Serão</h1>
           <span>Desenvolvedor Front End</span>
           <p>Sou um Desenvolvedor Front End com muita vontade de aprender e apaixonado por programação</p>
-          <Button>
-            Diga Olá
-            <img src={sendMessage} alt="Ícone de mensagem"/>
-          </Button>
+          <a target="__blank" href='https://xn--r1a.click/Luiz_Serao'>
+            <Button>
+              Diga Olá
+              <img src={sendMessage} alt="Ícone de mensagem"/>
+            </Button>
+          </a>
         </div>
         <div className={styles.contentPhoto}>
           <img src={photo} alt="Ilustração"/>

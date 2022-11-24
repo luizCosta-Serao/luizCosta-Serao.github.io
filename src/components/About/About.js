@@ -2,6 +2,7 @@ import React from 'react'
 import photoAbout from "../../imgs/about/Notifications.svg"
 import styles from "./About.module.css"
 import Button from "../Geral/Button"
+import curriculo from "../../documents/Curriculo.docx"
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <div className={`${styles.content}`}>
         <p>Sou desenvolvedor Front-End, desenvolvo sites com HTML, CSS, JavaScript e React.</p>
         <p>Comecei a estudar em janeiro de 2022 e busco um emprego onde posso trabalhar com o que amo e crescer junto com a empresa, pois acredito que estou preparado para trabalhar como Front-End Junior</p>
-        <a download="" href="">
+        <a download="curriculo" href={curriculo}>
           <Button>Download CV</Button>
         </a>
       </div>
