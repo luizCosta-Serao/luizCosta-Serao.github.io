@@ -17,7 +17,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <section className={`${styles.portfolio} container`}>
+    <section id='portfolio' className={`${styles.portfolio} container`}>
       <h1>Portfólio</h1>
       <p>Meus Portfólios</p>
       <Slide slides={slides}/>

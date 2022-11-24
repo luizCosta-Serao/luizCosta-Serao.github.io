@@ -9,6 +9,20 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Skills from './components/Skills/Skills';
 
 function App() {
+
+  const a = document.querySelectorAll("header a[href^='#']")
+  a.forEach(item => {
+    item.addEventListener("click", (e) =>{
+      e.preventDefault()
+      let href = item.getAttribute("href")
+      let section = document.querySelector(href)
+      section.scrollIntoView({
+        behavior:"smooth",
+        block:"start"
+      })
+    })
+  })
+
   return (
     <>
       <Header />

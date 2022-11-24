@@ -3,7 +3,7 @@ import styles from "./Skills.module.css"
 
 const Skills = () => {
   return (
-    <section className={`${styles.skills} container`}>
+    <section id='skills' className={`${styles.skills} container`}>
       <h1>Skills</h1>
       <p>Meu nível técnico</p>
       <div className={styles.frontEnd}>

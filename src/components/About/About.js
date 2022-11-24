@@ -6,7 +6,7 @@ import curriculo from "../../documents/Curriculo.docx"
 
 const About = () => {
   return (
-    <section className={`${styles.about} container`}>
+    <section id="about" className={`${styles.about} container`}>
       <h1>Sobre Mim</h1>
       <p>Minha introdução</p>
       <img src={photoAbout} alt="Foto do Sobre"/>

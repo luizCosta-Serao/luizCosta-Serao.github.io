@@ -5,7 +5,7 @@ import styles from "./Education.module.css"
 const Education = () => {
 
   return (
-    <section className={`${styles.education} container`}>
+    <section id='education' className={`${styles.education} container`}>
       <h1>Education</h1>
       <p>Minha jornada educativa</p>
 

@@ -7,7 +7,7 @@ import styles from "./Contact.module.css"
 
 const Contact = () => {
   return (
-    <section className={`${styles.contact} container`}>
+    <section id='contact' className={`${styles.contact} container`}>
       <div className={styles.methodContact}>
         <h1>Entre em Contato</h1>
         <ul>

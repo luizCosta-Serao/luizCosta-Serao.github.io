@@ -10,7 +10,7 @@ import Button from '../Geral/Button'
 
 const Home = () => {
   return (
-    <section className={`${styles.home} container`} id='home'>
+    <section id="home" className={`${styles.home} container`} id='home'>
       <div className={styles.social}>
         <Social
           src={github}     

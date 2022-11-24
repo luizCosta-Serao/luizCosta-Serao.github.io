@@ -5,6 +5,7 @@ import home from "../imgs/home.svg"
 import document from "../imgs/document.svg"
 import image from "../imgs/image.svg"
 import call from "../imgs/call.svg"
+import education from "../imgs/Education/education.svg"
 
 const Header = () => {
   const [menuMobile, setMenuMobile] = React.useState(false)
@@ -41,6 +42,10 @@ const Header = () => {
             <a href='#skills'>Habilidades</a>
           </li>
           <li>
+            <img src={education} alt="Educação"/>
+            <a href='#education'>Educação</a>
+          </li>
+          <li>
             <img src={image} alt="Portfólio"/>
             <a href='#portfolio'>Portfólio</a>
           </li>
@@ -50,7 +55,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </header> 
   )
 }
 
