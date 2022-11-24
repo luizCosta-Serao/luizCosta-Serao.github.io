@@ -7,7 +7,7 @@ import styles from "./Footer.module.css"
 const Footer = () => {
   return (
     <footer className={styles.bg}>
-      <section className={`${styles.footer} container`}>
+      <section className={`${styles.footer} container ativo`}>
         <h1>Luiz Serão</h1>
         <ul className={styles.links}>
           <li>

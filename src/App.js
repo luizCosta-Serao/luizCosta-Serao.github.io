@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -10,6 +11,7 @@ import Skills from './components/Skills/Skills';
 
 function App() {
 
+React.useEffect(() => {
   const a = document.querySelectorAll("header a[href^='#']")
   a.forEach(item => {
     item.addEventListener("click", (e) =>{
@@ -22,11 +24,26 @@ function App() {
       })
     })
   })
+},[])
+
+React.useEffect(() => {
+  const jsScroll = document.querySelector(".jsScroll").childNodes
+  jsScroll[0].classList.add("ativo")
+  window.addEventListener("scroll", () => {
+    jsScroll.forEach((item) => {
+      const windowMetade = window.innerHeight * 0.8
+      const bounding = item.getBoundingClientRect().top - windowMetade
+      if(bounding < 0) {
+        item.classList.add("ativo")
+      }
+    })
+  })
+},[])
 
   return (
     <>
       <Header />
-      <main>
+      <main className='jsScroll'> 
         <Home />
         <About />
         <Skills />

@@ -24,7 +24,7 @@ const Header = () => {
   },[])
 
   return (
-    <header className={`${styles.header} container`}>
+    <header className={`${styles.header} container ativo`}>
       <h1>Luiz <br/> Serão</h1>
       {menuMobile && <button className={styles.buttonMenu} onClick={() => {setActive(!active)}}></button>}
       <nav className={`${menuMobile ? styles.navMobile : styles.nav} ${active ? styles.active : styles.inativo}`}>

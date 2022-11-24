@@ -35,4 +35,12 @@ a, p {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1rem;
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: 1s ;
+}
+
+.ativo {
+  opacity: 1;
+  transform: translateX(0);
 }
