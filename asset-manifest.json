@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64ba3115.css",
-    "main.js": "/static/js/main.d1937c9c.js",
+    "main.css": "/static/css/main.3761524f.css",
+    "main.js": "/static/js/main.e04d8f88.js",
     "static/media/portfolio_dog.png": "/static/media/portfolio_dog.c30812a38d5f9b0b7e3c.png",
     "static/media/Curriculo.docx": "/static/media/Curriculo.9f4981685528630b3968.docx",
     "static/media/portfolio_products.png": "/static/media/portfolio_products.2268bbf1eb6d003e5c3a.png",
@@ -23,11 +23,11 @@
     "static/media/education.svg": "/static/media/education.5b4bbee2e91b8855115c2a1dabf81f38.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
-    "main.64ba3115.css.map": "/static/css/main.64ba3115.css.map",
-    "main.d1937c9c.js.map": "/static/js/main.d1937c9c.js.map"
+    "main.3761524f.css.map": "/static/css/main.3761524f.css.map",
+    "main.e04d8f88.js.map": "/static/js/main.e04d8f88.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ba3115.css",
-    "static/js/main.d1937c9c.js"
+    "static/css/main.3761524f.css",
+    "static/js/main.e04d8f88.js"
   ]
 }
