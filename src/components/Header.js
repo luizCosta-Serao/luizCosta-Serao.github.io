@@ -13,7 +13,7 @@ const Header = () => {
   
   React.useEffect(() => {
     window.addEventListener("resize", function() {
-      if(this.window.matchMedia("(max-width:768px)").matches) {
+      if(this.window.matchMedia("(max-width:850px)").matches) {
         setMenuMobile(true)
       } else {
         setMenuMobile(false)
