@@ -27,11 +27,11 @@ const Home = () => {
           alt="Instagram"
           href={"https://www.instagram.com/luiz_antoni.o/"}
         />
-      </div>
+      </div> 
       <div className={styles.content}>
         <div className={styles.contentText}>
           <h1>Luiz Serão</h1>
-          <span>Desenvolvedor Front End</span>
+          <p className={styles.typeAnimation}>Desenvolvedor Front End</p>
           <p>Sou um Desenvolvedor Front End com muita vontade de aprender e apaixonado por programação</p>
           <a target="__blank" href='https://xn--r1a.click/Luiz_Serao'>
             <Button>

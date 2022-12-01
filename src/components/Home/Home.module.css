@@ -27,12 +27,30 @@
   font-size: 3.5rem;
 }
 
-.contentText span {
+.contentText .typeAnimation {
   color: #333;
   font-size: 1.4rem;
+  border-right: 2px solid;
+  width: 29ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 5s steps(29) ,
+  blinking 1s infinite;
 }
 
-.contentText span::before {
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.contentText .typeAnimation::before {
   content: "";
   width: 60px;
   height: 2px;
@@ -95,6 +113,10 @@
 
   .contentText {
     text-align: center;
+  }
+
+  .contentText .typeAnimation {
+    margin: 0 auto;
   }
 
   .social {
