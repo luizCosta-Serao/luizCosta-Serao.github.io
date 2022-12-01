@@ -8,6 +8,11 @@ const Slide = ({slides}) => {
   React.useEffect(() => {
     const {width} = currentRef.current.getBoundingClientRect()
     setPosition(-(width * active))
+
+    window.addEventListener("resize", () => {
+      const {width} = currentRef.current.getBoundingClientRect()
+      setPosition(-(width * active))
+    })
   },[active])
 
   function slidePrev() {
@@ -23,6 +28,7 @@ const Slide = ({slides}) => {
       <ul ref={currentRef} className={styles.content} style={{transform:`translateX(${position}px)`}}>
         {slides.map((slide, index) =>
           <li className={styles.item} key={index}>
+            <h4>{slide.text}</h4>
             <a target="__blank" href={slide.href}>
               {slide.img}
             </a>
