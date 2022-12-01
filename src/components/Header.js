@@ -10,8 +10,12 @@ import education from "../imgs/Education/education.svg"
 const Header = () => {
   const [menuMobile, setMenuMobile] = React.useState(false)
   const [active, setActive] = React.useState(false)
+
+  
   
   React.useEffect(() => {
+    window.onload = window.matchMedia("(max-width:850px)").matches ? setMenuMobile(true) : setMenuMobile(false)
+
     window.addEventListener("resize", function() {
       if(this.window.matchMedia("(max-width:850px)").matches) {
         setMenuMobile(true)
