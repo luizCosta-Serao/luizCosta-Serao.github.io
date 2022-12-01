@@ -10,7 +10,7 @@ import Button from '../Geral/Button'
 
 const Home = () => {
   return (
-    <section id="home" className={`${styles.home} container`} id='home'>
+    <section id="home" className={`${styles.home} container`}>
       <div className={styles.social}>
         <Social
           src={github}     
@@ -40,7 +40,7 @@ const Home = () => {
             </Button>
           </a>
         </div>
-        <div className={styles.contentPhoto}>
+        <div className={`animationImage ${styles.contentPhoto}`}>
           <img src={photo} alt="Ilustração"/>
         </div>
       </div>

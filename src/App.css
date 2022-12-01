@@ -44,3 +44,16 @@ a, p {
   opacity: 1;
   transform: translateX(0);
 }
+
+.animationImage {
+  animation: animaImg 2.5s infinite alternate-reverse;
+}
+
+@keyframes animaImg {
+  to {
+    scale: 0.9;
+  }
+  for {
+    scale: 1;
+  }
+}

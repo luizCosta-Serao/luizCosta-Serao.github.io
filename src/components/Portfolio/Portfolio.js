@@ -21,7 +21,7 @@ const Portfolio = () => {
       <h1>Portfólio</h1>
       <p>Meus Portfólios</p>
       <Slide slides={slides}/>
-    </section>
+    </section> 
   )
 }
 
