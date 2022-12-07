@@ -5,6 +5,7 @@ import dogs from "../../imgs/Portfolio/portfolio_dog.png"
 import desafioRouter from "../../imgs/Portfolio/portfolio_products.png"
 import wildBeast from "../../imgs/Portfolio/projeto-wildbeast.png"
 import animaisFantasticos from "../../imgs/Portfolio/project-animais-fantasticos.png"
+import sunnyside from "../../imgs/Portfolio/sunnyside.png"
 
 const Portfolio = () => {
   const slides =  [
@@ -17,6 +18,11 @@ const Portfolio = () => {
       text:"Projeto realizado com ReactJS e API",
       img:<img src={desafioRouter} alt="router"/> ,
       href:"https://luizcosta-serao.github.io/desafio-router-react/"
+    },
+    {
+      text:"Projeto realizado com HTML, CSS e JavaScript",
+      img:<img src={sunnyside} alt="agência sunnyside"/>,
+      href:"https://luizcosta-serao.github.io/LP_Sunnyside_Agency/"
     },
     {
       text:"Projeto realizado com HTML e CSS",
