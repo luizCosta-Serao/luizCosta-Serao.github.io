@@ -30,10 +30,10 @@ const Footer = () => {
           <a target="__blank" href='https://github.com/luizCosta-Serao'>
             <img src={github} alt='github'/>
           </a>
-          <a target="__blank" href='https://www.linkedin.com/in/luiz-antonio-205058230/'>
+          <a target="__blank" href='https://www.instagram.com/luiz_antoni.o/'>
             <img src={instagram} alt='instagram'/>
           </a>
-          <a target="__blank" href='https://www.instagram.com/luiz_antoni.o/'>
+          <a target="__blank" href='https://www.linkedin.com/in/luiz-antonio-205058230/'>
             <img src={linkedin} alt='linkedin'/>
           </a>
         </div>
