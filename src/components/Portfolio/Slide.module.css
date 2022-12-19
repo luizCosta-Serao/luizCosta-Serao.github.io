@@ -38,6 +38,11 @@
   padding: 1rem 2rem;
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  opacity: .6;
 }
 
 @media (max-width:768px) {

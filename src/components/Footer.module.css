@@ -31,6 +31,10 @@
   color: #333;
 }
 
+.links a:hover {
+  text-decoration: underline;
+}
+
 .social {
   text-align: center;
   margin-top: 1rem;
@@ -39,6 +43,10 @@
 .social img{
   width: 45px;
   height: 45px;
+}
+
+.social img:hover {
+  opacity: .6;
 }
 
 .footer > p {

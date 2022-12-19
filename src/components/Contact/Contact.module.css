@@ -46,6 +46,10 @@
   background-color: #333;
 }
 
+.methodContact ul li a:hover {
+  opacity: .6;
+}
+
 .methodContact ul li a img {
   vertical-align: middle;
 }
