@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.44d74cc6.css",
+    "main.css": "/static/css/main.85281d21.css",
     "main.js": "/static/js/main.f066beca.js",
     "static/media/portfolio_dog.png": "/static/media/portfolio_dog.c30812a38d5f9b0b7e3c.png",
     "static/media/projeto-wildbeast.png": "/static/media/projeto-wildbeast.76877adce4fde54df542.png",
@@ -26,11 +26,11 @@
     "static/media/education.svg": "/static/media/education.5b4bbee2e91b8855115c2a1dabf81f38.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
-    "main.44d74cc6.css.map": "/static/css/main.44d74cc6.css.map",
+    "main.85281d21.css.map": "/static/css/main.85281d21.css.map",
     "main.f066beca.js.map": "/static/js/main.f066beca.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d74cc6.css",
+    "static/css/main.85281d21.css",
     "static/js/main.f066beca.js"
   ]
 }
