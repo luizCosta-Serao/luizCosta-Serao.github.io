@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.85281d21.css",
-    "main.js": "/static/js/main.f066beca.js",
+    "main.js": "/static/js/main.00c793dd.js",
     "static/media/portfolio_dog.png": "/static/media/portfolio_dog.c30812a38d5f9b0b7e3c.png",
-    "static/media/projeto-wildbeast.png": "/static/media/projeto-wildbeast.76877adce4fde54df542.png",
+    "static/media/projeto-wildbeast.png": "/static/media/projeto-wildbeast.fbca6fce7d8cbd035ade.png",
     "static/media/Currículo LUIZ SERÃO.docx": "/static/media/Currículo LUIZ SERÃO.5b4582e8e6927d1a390d.docx",
     "static/media/portfolio_products.png": "/static/media/portfolio_products.2268bbf1eb6d003e5c3a.png",
     "static/media/sunnyside.png": "/static/media/sunnyside.b5a403cd3bb4cc4375b6.png",
     "static/media/project-animais-fantasticos.png": "/static/media/project-animais-fantasticos.2e953ee0386f610953ad.png",
+    "static/media/form-portfolio.png": "/static/media/form-portfolio.58a355442244d5325d7a.png",
     "static/media/Message-Sent.svg": "/static/media/Message-Sent.7dc5ce86178c6c52ef5c4a6338759f39.svg",
     "static/media/Notifications.svg": "/static/media/Notifications.1a471cdc3b0a8a41b2a69ce3e3357e4f.svg",
     "static/media/instagram.svg": "/static/media/instagram.2630b1ef180fdbd4163883a1dcb90963.svg",
@@ -27,10 +28,10 @@
     "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
     "main.85281d21.css.map": "/static/css/main.85281d21.css.map",
-    "main.f066beca.js.map": "/static/js/main.f066beca.js.map"
+    "main.00c793dd.js.map": "/static/js/main.00c793dd.js.map"
   },
   "entrypoints": [
     "static/css/main.85281d21.css",
-    "static/js/main.f066beca.js"
+    "static/js/main.00c793dd.js"
   ]
 }
