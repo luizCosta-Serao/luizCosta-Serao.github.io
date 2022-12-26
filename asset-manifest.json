@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.85281d21.css",
-    "main.js": "/static/js/main.268ea5b9.js",
+    "main.css": "/static/css/main.07fc7533.css",
+    "main.js": "/static/js/main.9f9b62f3.js",
     "static/media/projeto-wildbeast.png": "/static/media/projeto-wildbeast.fbca6fce7d8cbd035ade.png",
     "static/media/Currículo LUIZ SERÃO.docx": "/static/media/Currículo LUIZ SERÃO.5b4582e8e6927d1a390d.docx",
     "static/media/sunnyside.png": "/static/media/sunnyside.a9f7adbd63b5fed71111.png",
@@ -26,11 +26,11 @@
     "static/media/education.svg": "/static/media/education.5b4bbee2e91b8855115c2a1dabf81f38.svg",
     "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
-    "main.85281d21.css.map": "/static/css/main.85281d21.css.map",
-    "main.268ea5b9.js.map": "/static/js/main.268ea5b9.js.map"
+    "main.07fc7533.css.map": "/static/css/main.07fc7533.css.map",
+    "main.9f9b62f3.js.map": "/static/js/main.9f9b62f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.85281d21.css",
-    "static/js/main.268ea5b9.js"
+    "static/css/main.07fc7533.css",
+    "static/js/main.9f9b62f3.js"
   ]
 }
