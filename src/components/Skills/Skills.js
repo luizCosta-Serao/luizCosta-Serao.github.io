@@ -41,6 +41,14 @@ const Skills = () => {
             <p>sass</p>
             <span>Básico</span>
           </li>
+          <li>
+            <p>NodeJS</p>
+            <span>Iniciante</span>
+          </li>
+          <li>
+            <p>MongoDB</p>
+            <span>Iniciante</span>
+          </li>
         </ul>
       </div>
     </section>

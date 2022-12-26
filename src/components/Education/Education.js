@@ -75,6 +75,12 @@ const Education = () => {
           hours="4.5h"
           teacher="OneBitCode"
         />
+
+        <Certificates 
+          title="UI Design para iniciantes"
+          hours="34h"
+          teacher="Origamid"
+        />
       </ul>
     </section>
   )
