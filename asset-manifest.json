@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.879df9e5.css",
-    "main.js": "/static/js/main.768044aa.js",
+    "main.js": "/static/js/main.116ccad5.js",
     "static/media/projeto-wildbeast.png": "/static/media/projeto-wildbeast.fbca6fce7d8cbd035ade.png",
     "static/media/Currículo LUIZ SERÃO.docx": "/static/media/Currículo LUIZ SERÃO.5b4582e8e6927d1a390d.docx",
     "static/media/sunnyside.png": "/static/media/sunnyside.a9f7adbd63b5fed71111.png",
     "static/media/portfolio_products.png": "/static/media/portfolio_products.3cd78b5d90b02cdf4126.png",
     "static/media/portfolio-dog.png": "/static/media/portfolio-dog.5c474fe1aa23023222eb.png",
     "static/media/form-portfolio.png": "/static/media/form-portfolio.58a355442244d5325d7a.png",
+    "static/media/buscador-cep.png": "/static/media/buscador-cep.b6e6fca1ccbbf35d04ce.png",
     "static/media/Message-Sent.svg": "/static/media/Message-Sent.7dc5ce86178c6c52ef5c4a6338759f39.svg",
     "static/media/Notifications.svg": "/static/media/Notifications.1a471cdc3b0a8a41b2a69ce3e3357e4f.svg",
     "static/media/instagram.svg": "/static/media/instagram.2630b1ef180fdbd4163883a1dcb90963.svg",
@@ -27,10 +28,10 @@
     "static/media/right-arrow.svg": "/static/media/right-arrow.48cfcb3f880cd34bb4205815d447b4eb.svg",
     "static/media/approve.svg": "/static/media/approve.5c87c87d80a951e34c7c.svg",
     "main.879df9e5.css.map": "/static/css/main.879df9e5.css.map",
-    "main.768044aa.js.map": "/static/js/main.768044aa.js.map"
+    "main.116ccad5.js.map": "/static/js/main.116ccad5.js.map"
   },
   "entrypoints": [
     "static/css/main.879df9e5.css",
-    "static/js/main.768044aa.js"
+    "static/js/main.116ccad5.js"
   ]
 }
