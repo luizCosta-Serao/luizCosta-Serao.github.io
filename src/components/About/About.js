@@ -11,8 +11,8 @@ const About = () => {
       <p>Minha introdução</p>
       <img className='animationImage' src={photoAbout} alt="Foto do Sobre"/>
       <div className={`${styles.content}`}>
-        <p>Sou desenvolvedor Front-End, desenvolvo sites com HTML, CSS, JavaScript e React.</p>
-        <p>Comecei a estudar em janeiro de 2022 e busco um emprego onde posso trabalhar com o que amo e crescer junto com a empresa, pois acredito que estou preparado para trabalhar como Front-End Junior</p>
+        <p>Sou desenvolvedor Front-End, desenvolvo sites com variadas linguagens</p>
+        <p>Comecei a estudar em janeiro de 2022 e busco um emprego onde posso trabalhar com o que amo e crescer junto com a empresa, pois acredito que estou preparado para trabalhar como Desenvolvedor Front-End</p>
         <a download="curriculo" href={curriculo}>
           <Button>Download CV</Button>
         </a>

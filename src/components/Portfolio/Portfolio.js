@@ -6,9 +6,15 @@ import desafioRouter from "../../imgs/Portfolio/portfolio_products.png"
 import wildBeast from "../../imgs/Portfolio/projeto-wildbeast.png"
 import sunnyside from "../../imgs/Portfolio/sunnyside.png"
 import formIncricao from "../../imgs/Portfolio/form-portfolio.png"
+import buscadorCep from "../../imgs/Portfolio/buscador-cep.png"
 
 const Portfolio = () => {
   const slides =  [
+    {
+      text:"Projeto utilizando API, ReactJS, HTML, CSS e JavaScript",
+      img:<img src={buscadorCep} alt="buscador de CEP"/>,
+      href:"https://luizcosta-serao.github.io/buscador-cep/"
+    },
     {
       text:"Projeto de Rede Social para cachorros realizado com API REST, ReactJS, HTML, CSS e JavaScript",
       img:<img src={dogs} alt="dogs"/>,
