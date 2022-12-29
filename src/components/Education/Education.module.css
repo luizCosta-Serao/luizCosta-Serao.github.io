@@ -1,7 +1,7 @@
 .education {
   width: 500px;
   background-color: white;
-  height: 1800px;
+  height: 1900px;
   margin-top: 7rem;
   margin-bottom: 2rem;
   border-radius: .4rem;
@@ -21,7 +21,7 @@
 .education > p::after {
   content: "";
   width: 2px;
-  height: 1420px;
+  height: 1575px;
   background: #333;
   display: block;
   position: relative;
@@ -31,7 +31,7 @@
 
 .education ul {
   position: relative;
-  top: -1330px;
+  top: -1485px;
   width: 100%;
 }
 

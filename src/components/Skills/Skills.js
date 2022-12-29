@@ -47,7 +47,7 @@ const Skills = () => {
           </li>
           <li>
             <p>MongoDB</p>
-            <span>Iniciante</span>
+            <span>Intermediário</span>
           </li>
         </ul>
       </div>

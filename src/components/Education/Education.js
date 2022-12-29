@@ -81,6 +81,12 @@ const Education = () => {
           hours="34h"
           teacher="Origamid"
         />
+
+        <Certificates 
+          title="WordPress como CMS"
+          hours="18h"
+          teacher="Origamid"
+        />
       </ul>
     </section>
   )
