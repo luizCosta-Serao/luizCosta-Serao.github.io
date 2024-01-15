@@ -27,6 +27,13 @@
   font-size: 3.5rem;
 }
 
+.whatsapp button img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 10px;  
+}
+
 .contentText .typeAnimation {
   color: #333;
   font-size: 1.4rem;
@@ -89,6 +96,9 @@
   .social {
     position: relative;
     top: 10px;
+    max-width: 200px;
+    justify-content: end;
+    width: 100%;
     flex-direction: row;
   }
 

@@ -3,9 +3,8 @@ import styles from "./Home.module.css"
 import Social from './Social'
 import github from "../../imgs/social/github.svg"
 import linkedin from "../../imgs/social/linkedin.svg"
-import instagram from "../../imgs/social/instagram.svg"
 import photo from "../../imgs/home/Message-Sent.svg"
-import sendMessage from "../../imgs/home/telegram.svg"
+import whatsapp from "../../imgs/Contact/whatsapp_2.svg"
 import Button from '../Geral/Button'
 
 const Home = () => {
@@ -17,26 +16,21 @@ const Home = () => {
           alt="Github"
           href={"https://github.com/luizCosta-Serao"}
         />
-        <Social
+        <Social 
           src={linkedin}     
           alt="Linkedin"
           href={"https://www.linkedin.com/in/luiz-antonio-205058230/"}
-        />
-        <Social
-          src={instagram}     
-          alt="Instagram"
-          href={"https://www.instagram.com/luiz_antoni.o/"}
         />
       </div> 
       <div className={styles.content}>
         <div className={styles.contentText}>
           <h1>Luiz Serão</h1>
           <p className={styles.typeAnimation}>Desenvolvedor Front End</p>
-          <p>Sou um Desenvolvedor Front End com muita vontade de aprender e apaixonado por programação</p>
-          <a target="__blank" href='https://xn--r1a.click/Luiz_Serao'>
+          <p>Bem-vindo ao meu portfólio! Aqui você encontrará informações e projetos desenvolvidos por mim, um entusiasta da programação e apaixonado por tecnologia.</p>
+          <a className={styles.whatsapp} target="__blank" href='https://linkwhats.app/85893b'>
             <Button>
               Diga Olá
-              <img src={sendMessage} alt="Ícone de mensagem"/>
+              <img src={whatsapp} alt="Whatsapp"/>
             </Button>
           </a>
         </div>
