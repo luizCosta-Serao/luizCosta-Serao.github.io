@@ -8,12 +8,11 @@ const About = () => {
   return (
     <section id="about" className={`${styles.about} container`}>
       <h1>Sobre Mim</h1>
-      <p>Minha introdução</p>
       <img className='animationImage' src={photoAbout} alt="Foto do Sobre"/>
       <div className={`${styles.content}`}>
-        <p>Sou desenvolvedor Front-End, desenvolvo sites com variadas linguagens</p>
-        <p>Comecei a estudar em janeiro de 2022 e busco um emprego onde posso trabalhar com o que amo e crescer junto com a empresa, pois acredito que estou preparado para trabalhar como Desenvolvedor Front-End</p>
-        <a download="curriculo" href={curriculo}>
+        <p>Olá! Sou um desenvolvedor front-end apaixonado por criar experiências incríveis na web. Com foco em React, estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e conhecimentos.</p>
+        <p>Se você está procurando um desenvolvedor front-end React apaixonado e comprometido, estou pronto para fazer parte do seu time!</p>
+        <a className={styles.curriculo} download="curriculo" href={curriculo}>
           <Button>Download CV</Button>
         </a>
       </div>
