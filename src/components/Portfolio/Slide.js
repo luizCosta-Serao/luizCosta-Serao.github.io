@@ -5,6 +5,7 @@ const Slide = ({slides}) => {
   const [position, setPosition] = React.useState(0)
   const [active, setActive] = React.useState(0)
   const currentRef = useRef()
+
   React.useEffect(() => {
     const {width} = currentRef.current.getBoundingClientRect()
     setPosition(-(width * active))

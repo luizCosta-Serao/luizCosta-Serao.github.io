@@ -1,7 +1,6 @@
 import React from 'react'
 import github from "../imgs/social/github.svg"
 import linkedin from "../imgs/social/linkedin.svg"
-import instagram from "../imgs/social/instagram.svg"
 import styles from "./Footer.module.css"
 
 const Footer = () => {
@@ -9,18 +8,18 @@ const Footer = () => {
     <footer className={styles.bg}>
       <section className={`${styles.footer} container ativo`}>
         <h1>Luiz Serão</h1>
-        <ul className={styles.links}>
+        <ul className={styles.links}> 
           <li>
             <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='#sobre'>Sobre</a>
+            <a href='#about'>Sobre</a>
           </li>
           <li>
-            <a href='#habilidades'>Habilidades</a>
+            <a href='#skills'>Habilidades</a>
           </li>
           <li>
-            <a href='#educacao'>Educação</a>
+            <a href='#contact'>Contatos</a>
           </li>
           <li>
             <a href='#portfolio'>Portfólio</a>
@@ -29,9 +28,6 @@ const Footer = () => {
         <div className={styles.social}>
           <a target="__blank" href='https://github.com/luizCosta-Serao'>
             <img src={github} alt='github'/>
-          </a>
-          <a target="__blank" href='https://www.instagram.com/luiz_antoni.o/'>
-            <img src={instagram} alt='instagram'/>
           </a>
           <a target="__blank" href='https://www.linkedin.com/in/luiz-antonio-205058230/'>
             <img src={linkedin} alt='linkedin'/>

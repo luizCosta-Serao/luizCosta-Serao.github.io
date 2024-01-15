@@ -1,51 +1,44 @@
 import React from 'react'
 import Slide from './Slide'
 import styles from "./Portfolio.module.css"
-import dogs from "../../imgs/Portfolio/portfolio-dog.png"
-import desafioRouter from "../../imgs/Portfolio/portfolio_products.png"
-import wildBeast from "../../imgs/Portfolio/projeto-wildbeast.png"
-import sunnyside from "../../imgs/Portfolio/sunnyside.png"
-import formIncricao from "../../imgs/Portfolio/form-portfolio.png"
-import buscadorCep from "../../imgs/Portfolio/buscador-cep.png"
+import dogs from "../../imgs/Portfolio/dogs.jpeg"
+import gestorEstoque from "../../imgs/Portfolio/gestor_de_estoque.jpeg"
+import calculadora from "../../imgs/Portfolio/calculadora.jpeg"
+import jogoDaVelha from "../../imgs/Portfolio/jogo-da-velha.jpeg"
+import shopper from "../../imgs/Portfolio/shopper.jpeg"
 
 const Portfolio = () => {
   const slides =  [
     {
-      text:"Projeto utilizando API, ReactJS, HTML, CSS e JavaScript",
-      img:<img src={buscadorCep} alt="buscador de CEP"/>,
-      href:"https://luizcosta-serao.github.io/buscador-cep/"
+      text:"Shopper - Ecommerce de roupas para homens, mulheres e crianças. Foi usado HTML, CSS, JavaScript, ReactJS e React Router",
+      img:<img src={shopper} alt="Ecommerce Shopper"/>,
+      href:"https://ecommerce-shopper-six.vercel.app/"
     },
     {
-      text:"Projeto de Rede Social para cachorros realizado com API REST, ReactJS, HTML, CSS e JavaScript",
+      text:"Dogs - Rede Social para cachorros realizado com API RESTful, ReactJS, React Router, HTML, CSS e JavaScript",
       img:<img src={dogs} alt="dogs"/>,
-      href:"https://luizcosta-serao.github.io/dogs-react/"
+      href:"https://social-dogs-ten.vercel.app/"
     },
     {
-      text:"Projeto de Produtos Eletrônicos realizado com ReactJS, HTML, CSS, JavaScript e API",
-      img:<img src={desafioRouter} alt="router"/> ,
-      href:"https://luizcosta-serao.github.io/desafio-router-react/"
+      text:"Gestor de estoque, utilizando HTML, CSS, JavaScript, ReactJS e React Router",
+      img:<img src={gestorEstoque} alt="Gestor de Estoque"/> ,
+      href:"https://gestor-de-estoque-wheat.vercel.app/"
     },
     {
-      text:"Projeto Sunnyside Agency realizado com HTML, CSS e JavaScript",
-      img:<img src={sunnyside} alt="agência sunnyside"/>,
-      href:"https://luizcosta-serao.github.io/LP_Sunnyside_Agency/"
+      text:"Jogo da velha, utilizando JavaSript, CSS e HTML",
+      img:<img src={jogoDaVelha} alt="Jogo da Velha"/>,
+      href:"https://jogo-da-velha-wine-nu.vercel.app/"
     },
     {
-      text:"Projeto Wildbeast realizado com HTML e CSS",
-      img:<img src={wildBeast} alt="wildbeast"/>,
-      href:"https://luizcosta-serao.github.io/Wildbeast-Grid/"
+      text:"Calculadora, utilizando JavaScript, HTML e CSS",
+      img:<img src={calculadora} alt="Calculadora"/>,
+      href:"https://calculadora-js-ten-sigma.vercel.app/"
     },
-    {
-      text:"Projeto de formulário com validação do lado do cliente com HTML, CSS e JavaScript utilizando regex",
-      img:<img src={formIncricao} alt="Formulário de inscrição"/>,
-      href:"https://luizcosta-serao.github.io/formulario-inscricao/"
-    }
   ]
 
   return (
     <section id='portfolio' className={`${styles.portfolio} container`}>
       <h1>Portfólio</h1>
-      <p>Meus Portfólios</p>
       <Slide slides={slides}/>
     </section> 
   )

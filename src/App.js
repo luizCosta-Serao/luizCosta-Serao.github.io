@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Education from './components/Education/Education';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home/Home';
@@ -12,7 +11,7 @@ import Skills from './components/Skills/Skills';
 function App() {
 
 React.useEffect(() => {
-  const a = document.querySelectorAll("header a[href^='#']")
+  const a = document.querySelectorAll("a[href^='#']")
   a.forEach(item => {
     item.addEventListener("click", (e) =>{
       e.preventDefault()
@@ -47,7 +46,6 @@ React.useEffect(() => {
         <Home />
         <About />
         <Skills />
-        <Education/>
         <Portfolio />
         <Contact />
       </main>
