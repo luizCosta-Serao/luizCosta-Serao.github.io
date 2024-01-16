@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../imgs/logo.svg'
 import styles from "./Header.module.css"
 import account from "../imgs/account.svg"
 import home from "../imgs/home.svg"
@@ -28,7 +29,7 @@ const Header = () => {
 
   return (
     <header className={`${styles.header} container ativo`}>
-      <h1>Luiz <br/> Serão</h1>
+      <img className={styles.logo} src={logo} alt='Luiz Costa'/>
       {menuMobile && <button className={styles.buttonMenu} onClick={() => {setActive(!active)}}></button>}
       <nav className={`${menuMobile ? styles.navMobile : styles.nav} ${active ? styles.active : styles.inativo}`}>
         <ul>

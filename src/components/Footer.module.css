@@ -10,9 +10,11 @@
   justify-content: center;
 }
 
-.footer > h1{
-  color: #333;
-  text-align: center;
+.logo {
+  position: relative;
+  top: -5px;
+  width: 100px;
+  margin: 0 auto;
 }
 
 .footer > p {

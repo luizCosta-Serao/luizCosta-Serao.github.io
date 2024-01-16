@@ -2,12 +2,13 @@ import React from 'react'
 import github from "../imgs/social/github.svg"
 import linkedin from "../imgs/social/linkedin.svg"
 import styles from "./Footer.module.css"
+import logo from '../imgs/logo.svg'
 
 const Footer = () => {
   return (
     <footer className={styles.bg}>
       <section className={`${styles.footer} container ativo`}>
-        <h1>Luiz Serão</h1>
+        <img className={styles.logo} src={logo} alt='Luiz Costa' />
         <ul className={styles.links}> 
           <li>
             <a href='#home'>Home</a>

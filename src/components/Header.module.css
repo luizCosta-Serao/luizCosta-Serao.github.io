@@ -1,16 +1,17 @@
 .header {
   z-index: 1000;
   position: relative;
-  padding: 1rem;
+  padding: .5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #fb1;
 }
 
-.header h1 {
-  line-height: .8;
-  color: #333;
+.logo {
+  position: relative;
+  top: -5px;
+  width: 80px;
 }
 
 .nav ul {
