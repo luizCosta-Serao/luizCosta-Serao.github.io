@@ -21,6 +21,10 @@
   font-size: 1.1rem;
 }
 
+.job {
+  font-weight: 600;
+}
+
 .curriculo button {
   color: white;
   margin-top: 2.5rem;
