@@ -1,45 +1,98 @@
 import React from 'react'
-import Slide from './Slide'
 import styles from "./Portfolio.module.css"
 import dogs from "../../imgs/Portfolio/dogs.jpeg"
 import gestorEstoque from "../../imgs/Portfolio/gestor_de_estoque.jpeg"
 import calculadora from "../../imgs/Portfolio/calculadora.jpeg"
 import jogoDaVelha from "../../imgs/Portfolio/jogo-da-velha.jpeg"
 import shopper from "../../imgs/Portfolio/shopper.jpeg"
+import html from '../../imgs/Skills/html.svg'
+import css from '../../imgs/Skills/css.svg'
+import js from '../../imgs/Skills/javascript.svg'
+import react from '../../imgs/Skills/reactjs.svg'
 
 const Portfolio = () => {
   const slides =  [
     {
-      text:"Shopper - Ecommerce de roupas para homens, mulheres e crianças. Foi usado HTML, CSS, JavaScript, ReactJS e React Router",
+      text:'Comércio eletrônico onde você pode encontrar uma ampla variedade de roupas incríveis. Possui roupas de diversos tamanhos para mulheres, homens e crianças.',
       img:<img src={shopper} alt="Ecommerce Shopper"/>,
-      href:"https://ecommerce-shopper-six.vercel.app/"
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+      ],
+      href:"https://ecommerce-shopper-six.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/ecommerce-shopper"
     },
     {
-      text:"Dogs - Rede Social para cachorros realizado com API RESTful, ReactJS, React Router, HTML, CSS e JavaScript",
+      text:"Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros.",
       img:<img src={dogs} alt="dogs"/>,
-      href:"https://social-dogs-ten.vercel.app/"
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+      ],
+      href:"https://social-dogs-ten.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/social-dogs"
     },
     {
-      text:"Gestor de estoque, utilizando HTML, CSS, JavaScript, ReactJS e React Router",
+      text:"Este é um site desenvolvido para ajudar no gerenciamento de estoques de produtos. Aqui você poderá cadastrar, visualizar, editar e excluir produtos do seu estoque de forma fácil e intuitiva.",
       img:<img src={gestorEstoque} alt="Gestor de Estoque"/> ,
-      href:"https://gestor-de-estoque-wheat.vercel.app/"
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+      ],
+      href:"https://gestor-de-estoque-wheat.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/gestor_de_estoque"
     },
     {
-      text:"Jogo da velha, utilizando JavaSript, CSS e HTML",
+      text:"Este é um jogo clássico de estratégia onde dois jogadores se enfrentam em um tabuleiro 3x3. O objetivo é conseguir três símbolos iguais em uma linha, coluna ou diagonal antes do seu oponente.",
       img:<img src={jogoDaVelha} alt="Jogo da Velha"/>,
-      href:"https://jogo-da-velha-wine-nu.vercel.app/"
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+      ],
+      href:"https://jogo-da-velha-wine-nu.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/jogo-da-velha"
     },
     {
-      text:"Calculadora, utilizando JavaScript, HTML e CSS",
+      text:"Esta é uma calculadora simples desenvolvida em JavaScript. Ela permite que você realize operações matemáticas básicas, como adição, subtração, multiplicação e divisão.",
       img:<img src={calculadora} alt="Calculadora"/>,
-      href:"https://calculadora-js-ten-sigma.vercel.app/"
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+      ],
+      href:"https://calculadora-js-ten-sigma.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/calculadora-js"
     },
   ]
-
+  //<Slide slides={slides}/>
   return (
     <section id='portfolio' className={`${styles.portfolio} container`}>
-      <h1>Portfólio</h1>
-      <Slide slides={slides}/>
+      <h1>Projetos</h1>
+      <ul className={styles.portfolioLista}>
+      {slides.map((slide, index) => (
+          <li key={index}>
+            {slide.img}
+            <p className={styles.portfolioTexto}>{slide.text}</p>
+            <p className={styles.portfolioTechs}>Tecnologias usadas no projeto:</p>
+            <div className={styles.techs}>
+              {slide.techs.map((tech, index) => (
+                <span key={index}>{tech}</span>
+              ))}
+            </div>
+            <div>
+              <a target='__blank' href={slide.href} >Visualizar</a>
+              <a target='__blank' href={slide.github}>Repositório</a>
+            </div>
+          </li>
+      ))}
+      </ul>
     </section> 
   )
 }

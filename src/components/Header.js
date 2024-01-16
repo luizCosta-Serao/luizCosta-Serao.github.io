@@ -46,7 +46,7 @@ const Header = () => {
           </li>
           <li>
             <img src={image} alt="Portfólio"/>
-            <a href='#portfolio'>Portfólio</a>
+            <a href='#portfolio'>Projetos</a>
           </li>
           <li>
             <img src={call} alt="contato"/>
