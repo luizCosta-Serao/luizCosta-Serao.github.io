@@ -20,10 +20,10 @@ const Footer = () => {
             <a href='#skills'>Habilidades</a>
           </li>
           <li>
-            <a href='#contact'>Contatos</a>
+            <a href='#portfolio'>Projetos</a>
           </li>
           <li>
-            <a href='#portfolio'>Portfólio</a>
+            <a href='#contact'>Contato</a>
           </li>
         </ul>
         <div className={styles.social}>
