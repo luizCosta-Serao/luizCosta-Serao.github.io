@@ -25,7 +25,7 @@ const Portfolio = () => {
       github:"https://github.com/luizCosta-Serao/ecommerce-shopper"
     },
     {
-      text:"Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros.",
+      text:"Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros. Neste projeto foi utilizado uma API RESTful.",
       img:<img src={dogs} alt="dogs"/>,
       techs: [
         <img src={html} alt='HTML' />,
