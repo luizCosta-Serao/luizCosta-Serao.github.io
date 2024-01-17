@@ -14,8 +14,8 @@ const Contact = () => {
           <li>
             <img src={email} alt="email"/>
             <h3>Email</h3>
-            <p>luiz.serao@hotmail.com</p>
-            <a href="mailto:luiz.serao@hotmail.com" target="__blank">
+            <p>luiz.asdc@hotmail.com</p>
+            <a href="mailto:luiz.asdc@hotmail.com" target="__blank">
               Envie um Email
               <img src={arrow} alt="seta"/>
             </a>
