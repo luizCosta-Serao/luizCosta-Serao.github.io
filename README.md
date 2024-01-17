@@ -37,7 +37,7 @@
 <p>Se você tiver alguma dúvida ou quiser colaborar em um projeto, sinta-se à vontade para entrar em contato comigo:</p>
 <ul>
   <li>Email: luiz.asdc@hotmail.com</li>
-  <li>LinkedIn: https://www.linkedin.com/in/luiz-antonio-205058230/</li>
+  <li><a target="__blank" href="https://www.linkedin.com/in/luiz-antonio-205058230/"></a>LinkedIn: https://www.linkedin.com/in/luiz-antonio-205058230/</li>
 </ul>
 
 <p>Obrigado por visitar meu portfólio! Espero que você goste de explorar meus projetos e ver minhas habilidades em ação.</p>
