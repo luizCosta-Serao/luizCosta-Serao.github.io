@@ -7,6 +7,8 @@ import figma from '../../imgs/Skills/figma.svg'
 import react from '../../imgs/Skills/reactjs.svg'
 import sass from '../../imgs/Skills/sass.svg'
 import github from '../../imgs/Skills/github.svg'
+import typescript from '../../imgs/Skills/typescript.svg'
+import git from '../../imgs/Skills/git.svg'
 
 const Skills = () => {
   return (
@@ -31,6 +33,10 @@ const Skills = () => {
             <p>ReactJS</p>
           </li>
           <li>
+            <img src={typescript} alt='TypeScript' />
+            <p>TypeScript</p>
+          </li>
+          <li>
             <img src={figma} alt='Figma' />
             <p>Figma</p>
           </li>
@@ -41,6 +47,10 @@ const Skills = () => {
           <li>
             <img src={github} alt='Github' />
             <p>Github</p>
+          </li>
+          <li>
+            <img src={git} alt='Git' />
+            <p>Git</p>
           </li>
         </ul>
       </div>
