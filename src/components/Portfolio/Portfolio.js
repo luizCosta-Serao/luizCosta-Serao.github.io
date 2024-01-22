@@ -13,7 +13,7 @@ import react from '../../imgs/Skills/reactjs.svg'
 const Portfolio = () => {
   const slides =  [
     {
-      text:'Comércio eletrônico onde você pode encontrar uma ampla variedade de roupas incríveis. Possui roupas de diversos tamanhos para mulheres, homens e crianças.',
+      text:'plataforma de comércio eletrônico moderna e elegante que oferece uma experiência de compra perfeita. Foi projetado para proporcionar aos usuários uma interface amigável para navegar e comprar uma variedade de produtos.',
       img:<img src={shopper} alt="Ecommerce Shopper"/>,
       techs: [
         <img src={html} alt='HTML' />,
