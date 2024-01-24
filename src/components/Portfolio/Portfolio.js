@@ -4,17 +4,19 @@ import dogs from "../../imgs/Portfolio/dogs.jpeg"
 import gestorEstoque from "../../imgs/Portfolio/gestor_de_estoque.jpeg"
 import calculadora from "../../imgs/Portfolio/calculadora.jpeg"
 import jogoDaVelha from "../../imgs/Portfolio/jogo-da-velha.jpeg"
+import cloudBoard from '../../imgs/Portfolio/cloudboard.jpeg'
 import shopper from "../../imgs/Portfolio/shopper.jpeg"
 import html from '../../imgs/Skills/html.svg'
 import css from '../../imgs/Skills/css.svg'
 import js from '../../imgs/Skills/javascript.svg'
 import react from '../../imgs/Skills/reactjs.svg'
+import typeScript from '../../imgs/Skills/typescript.svg'
 
 const Portfolio = () => {
   const slides =  [
     {
       text:'plataforma de comércio eletrônico moderna e elegante que oferece uma experiência de compra perfeita. Foi projetado para proporcionar aos usuários uma interface amigável para navegar e comprar uma variedade de produtos.',
-      img:<img src={shopper} alt="Ecommerce Shopper"/>,
+      img:<img src={shopper} alt="Ecommerce Outfit/Pro"/>,
       techs: [
         <img src={html} alt='HTML' />,
         <img src={css} alt='CSS' />,
@@ -23,6 +25,19 @@ const Portfolio = () => {
       ],
       href:"https://ecommerce-shopper-six.vercel.app/",
       github:"https://github.com/luizCosta-Serao/ecommerce-shopper"
+    },
+    {
+      text:'O CloudBoard é um dashboard financeiro que oferece uma visão abrangente de vendas, processando e recebidos retirados de uma API. Acesse dados detalhados de cada transação e gerencie através deste dashboard intuitivo.',
+      img:<img src={cloudBoard} alt="CloudBoard"/>,
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+        <img src={typeScript} alt='TypeScript' />,
+      ],
+      href:"https://cloudboard-five.vercel.app/",
+      github:"https://github.com/luizCosta-Serao/cloudboard"
     },
     {
       text:"Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros. Neste projeto foi utilizado uma API RESTful. Usuário e Senha padrão já salva => usuário: dog | senha: dog",
