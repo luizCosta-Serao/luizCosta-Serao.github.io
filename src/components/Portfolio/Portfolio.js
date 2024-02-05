@@ -4,6 +4,7 @@ import dogs from "../../imgs/Portfolio/dogs.jpeg"
 import gestorEstoque from "../../imgs/Portfolio/gestor_de_estoque.jpeg"
 import calculadora from "../../imgs/Portfolio/calculadora.jpeg"
 import jogoDaVelha from "../../imgs/Portfolio/jogo-da-velha.jpeg"
+import blogDogs from '../../imgs/Portfolio/blogdogs.jpeg'
 import cloudBoard from '../../imgs/Portfolio/cloudboard.jpeg'
 import shopper from "../../imgs/Portfolio/shopper.jpeg"
 import html from '../../imgs/Skills/html.svg'
@@ -14,6 +15,19 @@ import typeScript from '../../imgs/Skills/typescript.svg'
 
 const Portfolio = () => {
   const slides =  [
+    {
+      text: 'O site foi desenvolvido com o objetivo de simular um blog, que é dedicado a compartilhar informações, dicas e histórias sobre nossos amigos de quatro patas. Aqui você encontrará uma variedade de artigos relacionados a raças de cachorros, cuidados, treinamento e muito mais..',
+      img: <img src={blogDogs} alt='BlogDogs' />,
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+        <img src={typeScript} alt='TypeScript' />,
+      ],
+      href: 'https://blogging-sepia.vercel.app/',
+      github: 'https://github.com/luizCosta-Serao/blogging'
+    },
     {
       text:'plataforma de comércio eletrônico moderna e elegante que oferece uma experiência de compra perfeita. Foi projetado para proporcionar aos usuários uma interface amigável para navegar e comprar uma variedade de produtos.',
       img:<img src={shopper} alt="Ecommerce Outfit/Pro"/>,
@@ -40,7 +54,7 @@ const Portfolio = () => {
       github:"https://github.com/luizCosta-Serao/cloudboard"
     },
     {
-      text:"Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros. Neste projeto foi utilizado uma API RESTful. Usuário e Senha padrão já salva => usuário: dog | senha: dog",
+      text:"Projeto realizado no curso da origamid utilizando uma API RESTful. Rede social para cães, onde os amantes de cachorros podem se conectar, compartilhar fotos e interagir com outros donos de cachorros. Usuário e Senha padrão já salva => usuário: dog | senha: dog",
       img:<img src={dogs} alt="dogs"/>,
       techs: [
         <img src={html} alt='HTML' />,
