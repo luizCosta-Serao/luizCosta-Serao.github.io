@@ -8,30 +8,13 @@ import image from "../imgs/image.svg"
 import call from "../imgs/call.svg"
 
 const Header = () => {
-  const [menuMobile, setMenuMobile] = React.useState(false)
-  const [active, setActive] = React.useState(false)
-
-  
-  
-  React.useEffect(() => {
-    window.onload = window.matchMedia("(max-width:850px)").matches ? setMenuMobile(true) : setMenuMobile(false)
-
-    window.addEventListener("resize", function() {
-      if(this.window.matchMedia("(max-width:850px)").matches) {
-        setMenuMobile(true)
-      } else {
-        setMenuMobile(false)
-        setActive(false)
-      }
-
-    })
-  },[])
+  const [showMenu, setShowMenu] = React.useState(false)
 
   return (
     <header className={`${styles.header} container ativo`}>
       <img className={styles.logo} src={logo} alt='Luiz Costa'/>
-      {menuMobile && <button className={styles.buttonMenu} onClick={() => {setActive(!active)}}></button>}
-      <nav className={`${menuMobile ? styles.navMobile : styles.nav} ${active ? styles.active : styles.inativo}`}>
+      <button className={styles.buttonMenu} onClick={() => setShowMenu(!showMenu)}></button>
+      <nav className={`${styles.nav} ${showMenu ? styles.active : ''}`}>
         <ul>
           <li>
             <img src={home} alt='Home'/>

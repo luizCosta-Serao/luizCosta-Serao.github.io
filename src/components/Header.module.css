@@ -38,6 +38,7 @@
 }
 
 .buttonMenu {
+  display: none;
   background-color: #333;
   width: 40px;
   height: 40px;
@@ -57,37 +58,42 @@
   box-shadow: 0 6px 0px .2px white, 0 -6px 0px .2px white;
 }
 
-.navMobile ul {
-  background-color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  position: absolute;
-  right: 13px;
-  top: 67px;
-  border-radius: .4rem 0 .4rem .4rem;
-  box-shadow: 0px 4px 8px 1px #333;
-}
+@media (max-width: 876px) {
+  .nav ul {
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px 5px #333;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    opacity: 0;
+  }
 
-.navMobile.inativo ul {
-  opacity: 0;
-  visibility: hidden;
-  transition: .5s ;
-}
+  .nav.active ul {
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+  }
 
-.navMobile.active ul {
-  opacity: 1;
-  transition: .5s;
-  visibility: visible;
-}
+  .nav ul li {
+    border-bottom: 1px solid #333;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
 
-.navMobile ul li a {
-  vertical-align: middle;
-  color: #333;
-}
+  .nav ul li:first-child {
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+  }
 
-.navMobile ul li img {
-  width: 30px;
-  vertical-align: middle;
+  .buttonMenu {
+    display: block;
+  }
 }
