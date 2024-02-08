@@ -44,6 +44,7 @@
   padding: .5rem 1rem;
   border-radius: .4rem;
   background-color: #333;
+  transition: .4s;
 }
 
 .methodContact ul li a:hover {

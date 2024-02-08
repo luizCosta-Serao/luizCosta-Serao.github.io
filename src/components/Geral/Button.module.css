@@ -8,12 +8,10 @@
   color: white;
   font-size: 1.125rem;
   font-weight: bold;
-  box-shadow: 0 0 0 2px #000;
   transition: .3s;
   cursor: pointer;
 }
 
 .button:hover {
   background-color: #555;
-  box-shadow: 0 0 0 2px #333;
 }

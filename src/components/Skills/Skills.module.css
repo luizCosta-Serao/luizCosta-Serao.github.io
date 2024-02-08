@@ -40,7 +40,8 @@
 }
 
 .skillsList li {
-  border: 1px solid #333;
+  border: 2px solid #333;
+  background-color: #fff;
   display: flex;
   align-items: center;
   padding: .5rem 1rem;

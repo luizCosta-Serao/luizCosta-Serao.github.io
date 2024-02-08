@@ -19,6 +19,7 @@
 }
 
 .portfolioLista li {
+  background-color: #fff;
   box-shadow: 0 0 3px #333;
   border-radius: 1rem;
   padding: 1rem;
@@ -64,6 +65,11 @@
   border-radius: 1rem;
   padding: .5rem 1rem;
   display: inline-block;
+  transition: .4s;
+}
+
+.portfolioLista a:hover {
+  background-color: #555;
 }
 
 @media (max-width:768px) {
