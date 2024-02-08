@@ -7,6 +7,7 @@ import jogoDaVelha from "../../imgs/Portfolio/jogo-da-velha.jpeg"
 import blogDogs from '../../imgs/Portfolio/blogdogs.jpeg'
 import cloudBoard from '../../imgs/Portfolio/cloudboard.jpeg'
 import shopper from "../../imgs/Portfolio/shopper.jpeg"
+import workoutFitness from '../../imgs/Portfolio/workout-fitness.jpeg'
 import html from '../../imgs/Skills/html.svg'
 import css from '../../imgs/Skills/css.svg'
 import js from '../../imgs/Skills/javascript.svg'
@@ -15,6 +16,19 @@ import typeScript from '../../imgs/Skills/typescript.svg'
 
 const Portfolio = () => {
   const slides =  [
+    {
+      text: 'Workout - Site de Academia EM DESENVOLVIMENTO',
+      img: <img src={workoutFitness} alt='WorkoutFitness' />,
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+        <img src={typeScript} alt='TypeScript' />,
+      ],
+      href: 'https://workout-fitness.vercel.app/',
+      github: 'https://github.com/luizCosta-Serao/fitness'
+    },
     {
       text: 'O site foi desenvolvido com o objetivo de simular um blog, que é dedicado a compartilhar informações, dicas e histórias sobre nossos amigos de quatro patas. Aqui você encontrará uma variedade de artigos relacionados a raças de cachorros, cuidados, treinamento e muito mais..',
       img: <img src={blogDogs} alt='BlogDogs' />,
