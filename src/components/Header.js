@@ -18,23 +18,23 @@ const Header = () => {
         <ul>
           <li>
             <img src={home} alt='Home'/>
-            <a href='#home'>Home</a>
+            <a onClick={() => setShowMenu(false)} href='#home'>Home</a>
           </li>
           <li>
             <img src={account} alt="Sobre"/>
-            <a href='#about'>Sobre</a>
+            <a onClick={() => setShowMenu(false)} href='#about'>Sobre</a>
           </li>
           <li>
             <img src={document} alt="Habilidades"/>
-            <a href='#skills'>Habilidades</a>
+            <a onClick={() => setShowMenu(false)} href='#skills'>Habilidades</a>
           </li>
           <li>
             <img src={image} alt="Portfólio"/>
-            <a href='#portfolio'>Projetos</a>
+            <a onClick={() => setShowMenu(false)} href='#portfolio'>Projetos</a>
           </li>
           <li>
             <img src={call} alt="contato"/>
-            <a href='#contact'>Contato</a>
+            <a onClick={() => setShowMenu(false)} href='#contact'>Contato</a>
           </li>
         </ul>
       </nav>
