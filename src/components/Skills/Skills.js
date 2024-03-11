@@ -8,7 +8,9 @@ import react from '../../imgs/Skills/reactjs.svg'
 import sass from '../../imgs/Skills/sass.svg'
 import github from '../../imgs/Skills/github.svg'
 import typescript from '../../imgs/Skills/typescript.svg'
-import git from '../../imgs/Skills/git.svg'
+import nodejs from '../../imgs/Skills/nodejs.svg'
+import mongodb from '../../imgs/Skills/mongodb.svg'
+import nextjs from '../../imgs/Skills/nextjs.svg'
 
 const Skills = () => {
   return (
@@ -46,11 +48,19 @@ const Skills = () => {
           </li>
           <li>
             <img src={github} alt='Github' />
-            <p>Github</p>
+            <p>Git / Github</p>
           </li>
           <li>
-            <img src={git} alt='Git' />
-            <p>Git</p>
+            <img src={nodejs} alt='Node' />
+            <p>Node.js</p>
+          </li>
+          <li>
+            <img src={mongodb} alt='MongoDB' />
+            <p>MongoDB</p>
+          </li>
+          <li>
+            <img src={nextjs} alt='Next' />
+            <p>Next.js</p>
           </li>
         </ul>
       </div>
