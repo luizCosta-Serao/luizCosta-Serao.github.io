@@ -9,6 +9,7 @@ import cloudBoard from '../../imgs/Portfolio/cloudboard.jpeg'
 import shopper from "../../imgs/Portfolio/shopper.jpeg"
 import workoutFitness from '../../imgs/Portfolio/workout-fitness.jpeg'
 import cadernoDeNotas from '../../imgs/Portfolio/caderno_de_notas.jpeg'
+import furniro from '../../imgs/Portfolio/furniro.png'
 import html from '../../imgs/Skills/html.svg'
 import css from '../../imgs/Skills/css.svg'
 import js from '../../imgs/Skills/javascript.svg'
@@ -16,10 +17,24 @@ import react from '../../imgs/Skills/reactjs.svg'
 import typeScript from '../../imgs/Skills/typescript.svg'
 import nodejs from '../../imgs/Skills/nodejs.svg'
 import mongodb from '../../imgs/Skills/mongodb.svg'
-import nextjs from '../../imgs/Skills/nextjs.svg'
 
 const Portfolio = () => {
   const slides =  [
+    {
+      text: 'Furniro Ecommerce',
+      img: <img src={furniro} alt='Furniro' />,
+      techs: [
+        <img src={html} alt='HTML' />,
+        <img src={css} alt='CSS' />,
+        <img src={js} alt='JavaScript' />,
+        <img src={react} alt='ReactJS' />,
+        <img src={typeScript} alt='TypeScript' />,
+        <img src={nodejs} alt='Node.js' />,
+        <img src={mongodb} alt='MongoDB' />,
+      ],
+      href: 'https://furniro-gilt.vercel.app/',
+      github: 'https://github.com/luizCosta-Serao/furniro'
+    },
     {
       text: 'Caderno de Notas',
       img: <img src={cadernoDeNotas} alt='Caderno de Notas' />,
