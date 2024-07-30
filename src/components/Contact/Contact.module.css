@@ -25,7 +25,7 @@
   padding: 1rem 2rem;
   text-align: center;
   border-radius: .4rem;
-  box-shadow: 0px 0px 8px 1px #333;
+  box-shadow: 0px 0px 5px 1px #ccc;
 }
 
 .methodContact ul li h3 {
@@ -43,7 +43,7 @@
   font-weight: bold;
   padding: .5rem 1rem;
   border-radius: .4rem;
-  background-color: #333;
+  background-color: #B78300;
   transition: .4s;
 }
 
