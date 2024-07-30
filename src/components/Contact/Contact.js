@@ -24,8 +24,8 @@ const Contact = () => {
           <li>
             <img src={wathsapp} alt="wathsapp"/>
             <h3>Wathsapp</h3>
-            <p>+55 44 988099490</p>
-            <a href='https://api.whatsapp.com/send?phone=5544988099490' target="__blank">
+            <p>+55 (44) 98809-9490</p> 
+            <a href='https://wa.me/5544988099490' target="__blank">
               Mande uma Mensagem
               <img src={arrow} alt="seta"/>
             </a>
