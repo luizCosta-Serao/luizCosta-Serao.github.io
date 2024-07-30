@@ -25,7 +25,13 @@
 
 .contentText h1 {
   color: #333;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  line-height: 3.1rem;
+  margin-bottom: 10px;
+}
+
+.whatsapp button {
+  width: 250px;
 }
 
 .whatsapp button img {
@@ -39,10 +45,10 @@
   color: #333;
   font-size: 1.4rem;
   border-right: 2px solid;
-  width: 29ch;
+  width: 39ch;
   white-space: nowrap;
   overflow: hidden;
-  animation: type 5s steps(29) ,
+  animation: type 5s steps(39) ,
   blinking 1s infinite;
 }
 
@@ -73,7 +79,7 @@
 }
 
 .contentText button {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contentText img {

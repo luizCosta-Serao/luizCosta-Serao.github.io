@@ -11,6 +11,7 @@ import typescript from '../../imgs/Skills/typescript.svg'
 import nodejs from '../../imgs/Skills/nodejs.svg'
 import mongodb from '../../imgs/Skills/mongodb.svg'
 import nextjs from '../../imgs/Skills/nextjs.svg'
+import jquery from '../../imgs/Skills/jquery.svg'
 
 const Skills = () => {
   return (
@@ -61,6 +62,10 @@ const Skills = () => {
           <li>
             <img src={nextjs} alt='Next' />
             <p>Next.js</p>
+          </li>
+          <li>
+            <img src={jquery} alt='JQuery' />
+            <p>JQuery</p>
           </li>
         </ul>
       </div>

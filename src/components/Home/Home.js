@@ -24,12 +24,11 @@ const Home = () => {
       </div> 
       <div className={styles.content}>
         <div className={styles.contentText}>
-          <h1>Luiz Serão</h1>
-          <p className={styles.typeAnimation}>Desenvolvedor Front End</p>
-          <p>Bem-vindo ao meu portfólio! Aqui você encontrará informações e projetos desenvolvidos por mim, um entusiasta da programação e apaixonado por tecnologia.</p>
-          <a className={styles.whatsapp} target="__blank" href='https://linkwhats.app/85893b'>
+          <h1>Desenvolvedor Web & Designer Web</h1>
+          <p>Criando soluções inovadoras na web e buscando sempre superar expectativas e transformar ideias em realidade.</p>
+          <a className={styles.whatsapp} target="__blank" href='https://wa.me/5544988099490'>
             <Button>
-              Diga Olá
+              Entre em Contato
               <img src={whatsapp} alt="Whatsapp"/>
             </Button>
           </a>
