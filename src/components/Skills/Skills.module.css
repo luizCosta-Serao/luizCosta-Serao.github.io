@@ -16,7 +16,7 @@
 
 .frontEnd {
   background: transparent;
-  max-width: 700px;
+  max-width: 1280px;
   width: 100%;
   border-radius: .4rem;
   padding: 1rem 1rem;
@@ -40,8 +40,6 @@
 }
 
 .skillsList li {
-  border: 2px solid #333;
-  background-color: #fff;
   display: flex;
   align-items: center;
   padding: .5rem 1rem;
