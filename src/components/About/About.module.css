@@ -2,27 +2,49 @@
   margin-top: 7rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
+}
+
+.ensinoSuperior > h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .about > h1 {
   grid-column: 1 / -1;
   text-align: center;
   color: #333;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
-.about img {
-  width: 500px;
+.ensinoSuperior p {
+  font-size: 1.2rem;
+  color: #333;
 }
 
-.content p {
-  color: #555;
-  font-size: 1.1rem;
+.cursosComplementares li {
+  display: flex;
+  justify-content: space-between;
 }
 
-.job {
-  font-weight: 600;
+.cursosComplementares h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.cursosComplementares p {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cursosComplementares > h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .curriculo button {
