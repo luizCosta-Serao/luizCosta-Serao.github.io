@@ -2,7 +2,7 @@ import React from 'react'
 import photoAbout from "../../imgs/about/Notifications.svg"
 import styles from "./About.module.css"
 import Button from "../Geral/Button"
-import curriculo from "../../documents/front_end_2.0.pdf"
+import curriculo from "../../documents/curriculo-luiz-antonio.pdf"
 
 const About = () => {
   return (
