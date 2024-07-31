@@ -104,7 +104,6 @@
     position: relative;
     top: 10px;
     max-width: 200px;
-    justify-content: end;
     width: 100%;
     flex-direction: row;
   }
@@ -115,7 +114,17 @@
   }
 
   .contentPhoto img {
-    width: 350px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 950px) {
+  .contentPhoto img {
+    max-width: 300px;
+  }
+
+  .contentText h1 {
+    font-size: 40px;
   }
 }
 
@@ -130,6 +139,7 @@
 
   .contentText {
     text-align: center;
+    max-width: 400px;
   }
 
   .contentText .typeAnimation {
@@ -137,14 +147,15 @@
   }
 
   .social {
-    right: 3rem;
+    justify-content: center;
+    margin: 0 auto;
   }
 
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
   .contentText h1 {
-    font-size: 2.5rem
+    font-size: 32px;
   }
 
   .contentText span {
