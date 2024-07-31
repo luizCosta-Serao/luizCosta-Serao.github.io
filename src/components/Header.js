@@ -22,7 +22,7 @@ const Header = () => {
           </li>
           <li>
             <img src={account} alt="Sobre"/>
-            <a onClick={() => setShowMenu(false)} href='#about'>Sobre</a>
+            <a onClick={() => setShowMenu(false)} href='#about'>Educação</a>
           </li>
           <li>
             <img src={document} alt="Habilidades"/>
