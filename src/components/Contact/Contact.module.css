@@ -48,7 +48,7 @@
 }
 
 .methodContact ul li a:hover {
-  opacity: .6;
+  background-color: #CDB21C;
 }
 
 .methodContact ul li a img {

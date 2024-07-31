@@ -7,7 +7,7 @@
 .portfolio p {
   color: #555;
   font-size: 1.125rem;
-  text-align: center;
+  text-align: center; 
 }
 
 .portfolioLista {
@@ -20,7 +20,7 @@
 
 .portfolioLista li {
   background-color: #fff;
-  box-shadow: 0 0 3px #333;
+  box-shadow: 0 0 3px 1px #ccc;
   border-radius: 1rem;
   padding: 1rem;
   max-width: 330px;
@@ -31,15 +31,18 @@
   width: 100%;
   height: 180px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
-.portfolioTexto {
+.portfolioLista .portfolioTexto {
   margin-bottom: .5rem;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-.portfolioTechs {
+.portfolioLista .portfolioTechs {
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .techs {
@@ -51,7 +54,7 @@
 
 .techs span img {
   max-width: 40px;
-  height: 35px;
+  height: 40px;
 }
 
 .portfolioLista div {
@@ -61,16 +64,18 @@
 }
 
 .portfolioLista a {
-  background-color: #333;
+  background-color: #B78300;
   color: #fff;
-  border-radius: 1rem;
+  border-radius: 7px;
   padding: .5rem 1rem;
   display: inline-block;
   transition: .4s;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .portfolioLista a:hover {
-  background-color: #555;
+  background-color: #CDB21C;
 }
 
 @media (max-width:768px) {
