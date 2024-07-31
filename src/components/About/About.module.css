@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
+  padding: 40px;
 }
 
 .ensinoSuperior > h2 {
@@ -52,27 +53,86 @@
   margin-top: 2.5rem;
 } 
 
-@media (max-width:768px) {
-  .about img {
-    grid-column: 1 / -1;
-    justify-self: center;
-    width: 300px;
-    grid-row: 4 / 5;
-    margin-top: 1.5rem;
+@media (max-width:1000px) {
+  .about {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 80px;
   }
 
   .content {
     grid-column: 1 / -1;
     text-align: center;
   }
+
+  .ensinoSuperior {
+    width: 600px;
+  }
+
+  .cursosComplementares li {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+  }
 }
 
-@media (max-width:400px) {
-  .about img {
-    width: 100%;
+@media (max-width:687px) {
+  .ensinoSuperior {
+    text-align: center;
+    width: 400px;
+  }
+
+  .ensinoSuperior p {
+    font-size: 18px;
+  }
+
+  .cursosComplementares li h2 {
+    font-size: 16px;
+  }
+
+  .cursosComplementares li p {
+    font-size: 16px;
+  }
+
+  .cursosComplementares li {
+    width: 400px;
   }
 
   .content {
     width: fit-content;
+  }
+}
+
+@media (max-width: 500px) {
+  .ensinoSuperior {
+    width: auto;
+  }
+
+  .ensinoSuperior p {
+    font-size: 16px;
+  }
+
+  .cursosComplementares li {
+    width: auto;
+    align-items: center;
+  }
+
+  .cursosComplementares li h2 {
+    font-size: 12px;
+  }
+
+  .cursosComplementares li p {
+    display: flex;
+    font-size: 12px;
+    width: 100px;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media (max-width: 440px) {
+  .ensinoSuperior p {
+    font-size: 14px;
   }
 }
